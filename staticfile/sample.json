@@ -1,0 +1,5 @@
+[
+    {"e_id":111,"e_name":"ramesh","e_sal":10000},
+    {"e_id":222,"e_name":"suresh","e_sal":20000},
+    {"e_id":333,"e_name":"ganesh","e_sal":30000}
+]
