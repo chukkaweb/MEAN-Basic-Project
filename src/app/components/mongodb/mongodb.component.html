@@ -1,0 +1,21 @@
+<br>
+<h4 class="text-success">The Below Data come's from Monogodb Database</h4>
+<br>
+<div class="table-responsive">
+   <table class="table table-bordered">
+      <thead>
+         <tr>
+            <td>Product_Id</td>
+            <td>Product_Name</td>
+            <td>Product_Cost</td>
+         </tr>
+      </thead>
+      <tbody>
+         <tr *ngFor ="let product of result">
+            <td>{{product.p_id}}</td>
+            <td>{{product.p_name}}</td>
+            <td>{{product.p_cost}}</td>
+         </tr>
+      </tbody>
+   </table>
+</div>

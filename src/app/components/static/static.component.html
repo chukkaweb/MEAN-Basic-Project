@@ -1,0 +1,21 @@
+<br>
+<h5 class="text-success">The Below Data come's from Static File</h5>
+<br>
+<div class="table-responsive">
+   <table class="table table-bordered">
+      <thead>
+         <tr>
+            <td>Emp_Id</td>
+            <td>Emp_Name</td>
+            <td>Emp_Sal</td>
+         </tr>
+      </thead>
+      <tbody>
+         <tr *ngFor ="let employee of result">
+            <td>{{employee.e_id}}</td>
+            <td>{{employee.e_name}}</td>
+            <td>{{employee.e_sal}}</td>
+            </tr>
+      </tbody>
+   </table>
+</div>

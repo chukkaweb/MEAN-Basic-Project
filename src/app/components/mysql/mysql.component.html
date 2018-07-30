@@ -1,0 +1,21 @@
+<br>
+<h5 class="text-primary">The Below Data come's from Mysql Database</h5>
+<br>
+<div class="table-responsive">
+   <table class="table table-bordered">
+      <thead>
+         <tr>
+            <td>Student_RollNO</td>
+            <td>Student_Name</td>
+            <td>Student_Class</td>
+         </tr>
+      </thead>
+      <tbody>
+         <tr *ngFor ="let student of result">
+            <td>{{student.s_rno}}</td>
+            <td>{{student.s_name}}</td>
+            <td>{{student.s_class}}</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
