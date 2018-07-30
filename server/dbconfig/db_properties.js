@@ -2,5 +2,6 @@ module.exports = {
 host:"locahost",
 user:"root",
 password:"root",
-database:"miniproject"
-}
+database:"sampleproject", // mysql and mongodb database name same
+token:""
+};

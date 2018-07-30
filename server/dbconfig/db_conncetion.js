@@ -1,7 +1,7 @@
-var db = require('./db_properties');
 var mysql = require('mysql');
+var db = require('./db_properties');
 module.exports = {
-"getConncetion":function(){
+getConncetion: function(){
     return mysql.createConnection({
         host:db.host,
         user:db.user,
@@ -9,4 +9,4 @@ module.exports = {
         database:db.database
 });
 }
-}
+};

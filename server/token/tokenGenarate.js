@@ -1,4 +1,5 @@
 var jwt =require('jwt-simple');//used to genrate the token based authentiction
-module.exports=function(uname,upwd){
-    return jwt.module({'uname' : uname,'upwd' : upwd,password})// password meeans its password type
-}
+module.exports = function(arg1,arg2,password){
+    return jwt.encode({'uname':arg1,'upwd':arg2},
+                      password);
+};
